@@ -196,6 +196,10 @@ const Home: React.FC<HomeProps> = ({}) => {
                 <Text style={{color: '#161312', fontSize: 24}}>
                   React Test Users
                 </Text>
+                <Text
+                  style={{color: '#9EA1A8', fontSize: 10, fontWeight: 'bold'}}>
+                  TIP: Swipe to delete
+                </Text>
               </View>
               {Users && Users.length > 0 && (
                 <View>
